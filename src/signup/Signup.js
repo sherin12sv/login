@@ -51,7 +51,7 @@ const [password , setPassword] = useState('');
 const loginUser =async (e)=>{
 e.preventDefault();
 
-const res =await fetch('/signin',{
+const res =await fetch('https://login.sherin12sv.repl.co/signin',{
   method : "POST",
   headers:{
     "Content-Type":"application/json"
